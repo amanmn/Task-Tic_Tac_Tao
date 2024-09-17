@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.msg-container{
+    height: 30vmin;
+    margin: auto;
+    text-align: center;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+    color: #191913;
+}
+#newbtn{
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+.container{
+    height: 70vh;
+}
+body{
+    background-color:#b38c95;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #0C090A;
+    margin: 15px auto;
+}
+
+.boxes {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 17px;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    background-color: #453638;
+    /* background-color: #a04e4e; */
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 13vmin;
+    color: #0C090A;
+    text-align: center;
+    padding-top:10px ;
+    list-style: none;
+    cursor: grab;
+}
+.box:hover{
+    background-color: #AF979E;
+}
+.box.disabled {
+    pointer-events: none;
+    opacity: 0.9; /* Makes it look disabled */
+}
+
+.restartbtn{
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    background-color:#0C090A ;
+    color:#fff;
+    cursor: grab;
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.hide{
+    display: none;
+}
